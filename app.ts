@@ -19,7 +19,7 @@ await new WebView({
   title: "Local webview_deno example",
   url: `data:text/html,${encodeURIComponent(html)}`,
   width: 300,
-  height: 300,
+  height: 150,
   resizable: true,
   debug: true,
   frameless: false,
